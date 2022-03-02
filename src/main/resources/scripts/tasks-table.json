@@ -1,0 +1,19 @@
+{
+  "TableName": "tasks",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "taskId",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "WriteCapacityUnits": 5,
+    "ReadCapacityUnits": 5
+  },
+  "KeySchema": [
+    {
+      "KeyType": "HASH",
+      "AttributeName": "taskId"
+    }
+  ]
+}
