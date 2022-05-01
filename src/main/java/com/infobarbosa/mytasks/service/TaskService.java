@@ -3,9 +3,6 @@ package com.infobarbosa.mytasks.service;
 import java.util.List;
 
 import com.infobarbosa.mytasks.entity.Task;
-import com.infobarbosa.mytasks.repository.TaskRepository;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
